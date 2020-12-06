@@ -11,7 +11,6 @@ import tensorlayer as tl
 from model import get_G, get_D
 from config import config
 
-%tensorflow_version 2.x  # this line is not required unless you are in a notebook
 
 ###====================== HYPER-PARAMETERS ===========================###
 ## Adam
