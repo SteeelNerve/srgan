@@ -1,7 +1,2 @@
-tensorlayer>=2.0.1
-easydict>=1.9
-tensorflow-estimator<2.5.0,>=2.4.0rc0
-folium==0.2.1
-requests~=2.23.0
-numpy~=1.19.2
+tensorlayer>=2.0.0
 tensorflow>=2.0.0
