@@ -6,6 +6,8 @@ import tensorlayer as tl
 from tensorlayer.layers import Input, Conv2d, BatchNorm2d, Elementwise, SubpixelConv2d, Flatten, Dense
 from tensorlayer.models import Model
 
+%tensorflow_version 2.x  # this line is not required unless you are in a notebook
+
 def get_G(input_shape):
     w_init = tf.random_normal_initializer(stddev=0.02)
     g_init = tf.random_normal_initializer(1., 0.02)
