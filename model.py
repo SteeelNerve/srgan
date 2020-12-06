@@ -3,7 +3,7 @@
 
 import tensorflow as tf
 import tensorlayer as tl
-from tensorlayer.layers import (Input, Conv2d, BatchNorm2d, Elementwise, SubpixelConv2d, Flatten, Dense)
+from tensorlayer.layers import Input, Conv2d, BatchNorm2d, Elementwise, SubpixelConv2d, Flatten, Dense
 from tensorlayer.models import Model
 
 def get_G(input_shape):
