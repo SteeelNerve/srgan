@@ -6,7 +6,7 @@ import time
 import random
 import numpy as np
 import scipy, multiprocessing
-import tensorflow as tf
+import tensorflow.keras as tf
 import tensorlayer as tl
 from model import get_G, get_D
 from config import config
